@@ -1,18 +1,173 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Free student tools for exam prediction, college admissions, attendance, CGPA, files and campus life."><meta name="theme-color" content="#4361ee"><title>CampusKit — Every Student Tool in One Free Hub</title><link rel="canonical" href="https://campuskit.live/"><link rel="stylesheet" href="css/style.css"><script defer src="js/main.js"></script>
-<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-5PMVJVWL"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-</script>
-</head><body><header class="site-header"><div class="container nav"><a class="brand" href="index.html">Campus<span>Kit</span></a><nav class="nav-links"><a href="#tools">Explore tools</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav><div class="nav-actions"><button class="theme-toggle" data-theme-toggle aria-label="Toggle dark mode">🌙 Dark</button></div></div></header><main><section class="hero"><div class="container"><span class="eyebrow">A smarter student toolkit</span><h1>Every Student Tool &amp; Exam Predictor in One Free Hub</h1><p>Plan your next step with practical calculators, college estimates, and file tools that work right in your browser.</p><div class="search-wrap"><span class="search-icon">⌕</span><input id="tool-search" type="search" placeholder="Search tools, exams, or campus life…" aria-label="Search tools"></div></div></section><section class="section container" id="tools"><div class="section-heading"><div><h2>Explore student tools</h2><p>Free, quick, and built for students.</p></div></div><div class="filters" role="group" aria-label="Filter tools"><button class="filter-btn active" data-category-filter="all">All Tools</button><button class="filter-btn" data-category-filter="predictors">Exam &amp; College Predictors</button><button class="filter-btn" data-category-filter="academics">CGPA &amp; Attendance</button><button class="filter-btn" data-category-filter="files">PDF &amp; File Utilities</button><button class="filter-btn" data-category-filter="campus">Campus Life</button></div><div class="tool-grid">
-<a class="tool-card" data-category="predictors" href="tools/jee-predictor.html"><div class="tool-icon">🎯</div><h3>JEE Predictor</h3><p>Estimate percentile and explore JoSAA college cutoffs.</p><span class="category-label">Exam predictor →</span></a>
-<a class="tool-card" data-category="predictors" href="tools/neet-predictor.html"><div class="tool-icon">🩺</div><h3>NEET Predictor</h3><p>Explore score to AIR estimates and sample medical college cutoffs.</p><span class="category-label">Exam predictor →</span></a>
-<a class="tool-card" data-category="predictors" href="tools/kcet-predictor.html"><div class="tool-icon">🏛️</div><h3>KCET &amp; COMEDK Predictor</h3><p>Browse Karnataka engineering college rank references.</p><span class="category-label">Exam predictor →</span></a>
-<a class="tool-card" data-category="academics" href="tools/attendance.html"><div class="tool-icon">📅</div><h3>75% Attendance Bunk Meter</h3><p>Find safe skips or classes needed to get back on track.</p><span class="category-label">Academic tool →</span></a>
-<a class="tool-card" data-category="academics" href="tools/cgpa-calculator.html"><div class="tool-icon">📈</div><h3>CGPA Calculator</h3><p>Convert CGPA and calculate a target next-semester SGPA.</p><span class="category-label">Academic tool →</span></a>
-<a class="tool-card" data-category="files" href="tools/image-compressor.html"><div class="tool-icon">🖼️</div><h3>Image Compressor</h3><p>Resize exam photos and signatures locally in your browser.</p><span class="category-label">File utility →</span></a>
-<a class="tool-card" data-category="files" href="tools/pdf-tools.html"><div class="tool-icon">📄</div><h3>PDF Tools</h3><p>Merge PDFs or extract page ranges on your device.</p><span class="category-label">File utility →</span></a>
-<a class="tool-card" data-category="campus" href="tools/resume-builder.html"><div class="tool-icon">🧾</div><h3>Resume Builder</h3><p>Create a simple ATS-friendly resume and print to PDF.</p><span class="category-label">Campus life →</span></a>
-<a class="tool-card" data-category="campus" href="tools/expense-splitter.html"><div class="tool-icon">🧮</div><h3>Roommate Expense Splitter</h3><p>Track shared costs and calculate who pays whom.</p><span class="category-label">Campus life →</span></a>
-</div><div class="ad-slot" aria-label="Advertisement placeholder">Advertisement</div></section></main><footer class="site-footer"><div class="container footer-inner"><span>© <span data-year></span> CampusKit · Made for students</span><div class="footer-links"><a href="about.html">About</a><a href="privacy.html">Privacy</a><a href="contact.html">Contact</a></div></div></footer></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Free student tools for exam prediction, college admissions, attendance, CGPA, files and campus life.">
+  <meta name="theme-color" content="#efeae2">
+  <title>CampusKit — Every Student Tool in One Free Hub</title>
+  <link rel="canonical" href="https://campuskit.live/">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/atmosphere.css">
+  <script defer src="js/main.js"></script>
+  <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-5PMVJVWL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  </script>
+</head>
+<body class="home">
+  <div class="pointer-glow" aria-hidden="true"></div>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">Campus<span>Kit</span></a>
+      <nav class="nav-links">
+        <a href="#tools">Explore tools</a>
+        <a href="#path">The path</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="theme-toggle" data-theme-toggle aria-label="Toggle dark mode">Dark</button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">A smarter student toolkit</span>
+          <h1>Every student tool, <em>one free hub.</em></h1>
+          <p class="hero-lead">Plan the next step with exam estimates, attendance, CGPA, and file tools that run in the browser.</p>
+          <div class="hero-actions">
+            <div class="search-wrap">
+              <span class="search-icon">⌕</span>
+              <input id="tool-search" type="search" placeholder="Search tools, exams, or campus life…" aria-label="Search tools">
+            </div>
+            <a class="button" href="#tools">Open the desk</a>
+          </div>
+          <ul class="hero-note">
+            <li>9 tools</li>
+            <li>No account</li>
+            <li>Stays on device</li>
+          </ul>
+        </div>
+        <div class="orbit" aria-hidden="true">
+          <div class="orbit-rig">
+            <div class="ring"></div>
+            <div class="ring inner"></div>
+            <article class="float-card c1"><span>JEE</span><strong>98.4</strong><em>percentile</em></article>
+            <article class="float-card c2"><span>NEET</span><strong>640</strong><em>score</em></article>
+            <article class="float-card c3"><span>Attend</span><strong>75%</strong><em>safe line</em></article>
+            <article class="float-card c4"><span>CGPA</span><strong>8.6</strong><em>running</em></article>
+            <div class="cube-slot">
+              <div class="cube">
+                <span class="face front">C</span>
+                <span class="face back">K</span>
+                <span class="face right">A</span>
+                <span class="face left">M</span>
+                <span class="face top">P</span>
+                <span class="face bottom">S</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span>JEE Main</span><span>NEET UG</span><span>KCET</span><span>COMEDK</span><span>Attendance</span><span>CGPA</span><span>Photo compress</span><span>PDF merge</span><span>Resume</span><span>Roommates</span>
+        <span>JEE Main</span><span>NEET UG</span><span>KCET</span><span>COMEDK</span><span>Attendance</span><span>CGPA</span><span>Photo compress</span><span>PDF merge</span><span>Resume</span><span>Roommates</span>
+      </div>
+    </div>
+
+    <section class="section container" id="tools">
+      <div class="section-heading">
+        <div>
+          <h2>Explore student tools</h2>
+          <p>Free, quick, and built for students.</p>
+        </div>
+      </div>
+      <div class="filters" role="group" aria-label="Filter tools">
+        <button class="filter-btn active" data-category-filter="all">All Tools</button>
+        <button class="filter-btn" data-category-filter="predictors">Exam &amp; College Predictors</button>
+        <button class="filter-btn" data-category-filter="academics">CGPA &amp; Attendance</button>
+        <button class="filter-btn" data-category-filter="files">PDF &amp; File Utilities</button>
+        <button class="filter-btn" data-category-filter="campus">Campus Life</button>
+      </div>
+      <div class="tool-grid">
+        <a class="tool-card feature" data-category="predictors" href="tools/jee-predictor.html"><div class="tool-icon">JEE</div><h3>JEE Predictor</h3><p>Estimate percentile and explore JoSAA college cutoffs.</p><span class="category-label">Exam predictor →</span></a>
+        <a class="tool-card" data-category="predictors" href="tools/neet-predictor.html"><div class="tool-icon">NEET</div><h3>NEET Predictor</h3><p>Explore score to AIR estimates and sample medical college cutoffs.</p><span class="category-label">Exam predictor →</span></a>
+        <a class="tool-card" data-category="predictors" href="tools/kcet-predictor.html"><div class="tool-icon">KCET</div><h3>KCET &amp; COMEDK Predictor</h3><p>Browse Karnataka engineering college rank references.</p><span class="category-label">Exam predictor →</span></a>
+        <a class="tool-card" data-category="academics" href="tools/attendance.html"><div class="tool-icon">75%</div><h3>75% Attendance Bunk Meter</h3><p>Find safe skips or classes needed to get back on track.</p><span class="category-label">Academic tool →</span></a>
+        <a class="tool-card" data-category="academics" href="tools/cgpa-calculator.html"><div class="tool-icon">CGPA</div><h3>CGPA Calculator</h3><p>Convert CGPA and calculate a target next-semester SGPA.</p><span class="category-label">Academic tool →</span></a>
+        <a class="tool-card" data-category="files" href="tools/image-compressor.html"><div class="tool-icon">IMG</div><h3>Image Compressor</h3><p>Resize exam photos and signatures locally in your browser.</p><span class="category-label">File utility →</span></a>
+        <a class="tool-card" data-category="files" href="tools/pdf-tools.html"><div class="tool-icon">PDF</div><h3>PDF Tools</h3><p>Merge PDFs or extract page ranges on your device.</p><span class="category-label">File utility →</span></a>
+        <a class="tool-card" data-category="campus" href="tools/resume-builder.html"><div class="tool-icon">CV</div><h3>Resume Builder</h3><p>Create a simple ATS-friendly resume and print to PDF.</p><span class="category-label">Campus life →</span></a>
+        <a class="tool-card" data-category="campus" href="tools/expense-splitter.html"><div class="tool-icon">₹</div><h3>Roommate Expense Splitter</h3><p>Track shared costs and calculate who pays whom.</p><span class="category-label">Campus life →</span></a>
+      </div>
+      <p id="tool-empty" class="empty-state" hidden>Nothing matches that search. Try an exam, a subject, or a file type.</p>
+      <div class="ad-slot" aria-label="Advertisement placeholder">Advertisement</div>
+    </section>
+
+    <section class="chapters" id="path">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">Scroll the semester</span>
+            <h2>Three moves, then the form is done.</h2>
+          </div>
+        </div>
+        <ol class="chapter-list">
+          <li class="chapter">
+            <span class="chapter-index">01</span>
+            <div>
+              <h3>Read the cutoff.</h3>
+              <p>JEE, NEET, and KCET references sit in one place, so a rank becomes a shortlist instead of a rumor thread.</p>
+              <a href="tools/jee-predictor.html">Open the JEE predictor</a>
+            </div>
+          </li>
+          <li class="chapter">
+            <span class="chapter-index">02</span>
+            <div>
+              <h3>Guard the percentage.</h3>
+              <p>See how many classes are still safe to miss, and what SGPA the next semester has to carry.</p>
+              <a href="tools/attendance.html">Check the bunk meter</a>
+            </div>
+          </li>
+          <li class="chapter">
+            <span class="chapter-index">03</span>
+            <div>
+              <h3>Finish the paperwork.</h3>
+              <p>Compress the exam photo, merge the PDFs, and print a one-column resume without uploading a file.</p>
+              <a href="tools/pdf-tools.html">Use the PDF tools</a>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="promises">
+      <div class="container">
+        <ul class="promise-row">
+          <li><strong>No account</strong><span>Open a calculator and use it. Nothing to sign up for.</span></li>
+          <li><strong>On this device</strong><span>Photo and PDF tools process files in the browser.</span></li>
+          <li><strong>Still free</strong><span>Predictors, academics, and campus utilities in one hub.</span></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span data-year></span> CampusKit · Made for students</span>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
