@@ -7,10 +7,13 @@ const status=(el,msg)=>{if(el)el.textContent=msg};
 async function load(name){const r=await fetch(`../data/${name}`);if(!r.ok)throw Error(`Could not load ${name}; serve this site over HTTP(S).`);const data=await r.json(); Object.assign(collegePlacements,data.collegePlacements); return data}
 function badge(chance){const cls=chance==='Safe'?'chance-safe':chance==='Moderate'?'chance-moderate':chance==='Ambitious'?'chance-ambitious':'chance-reference';const label=chance==='Ambitious'?'Ambitious / Spot Round':chance||'Reference only';return `<span class="chance-badge ${cls}">${esc(label)}</span>`}
 function chanceFor(rank,close){rank=n(rank);close=n(close);if(!rank||!close)return 'Reference only';if(rank<=close*.85)return 'Safe';if(rank<=close*1.15)return 'Moderate';if(rank<=close*1.20)return 'Ambitious';return 'Outside range'}
-function trendMarkup(rec){const year=Number(rec.year)||2025,rawRound=String(rec.round||''),round=rawRound?` · ${/^\d+$/.test(rawRound)?`R${rawRound}`:rawRound.replace(/^Round\s*/i,'R')}`:'',basis=year===2026?`Based on 2026 counseling data${round}`:`Based on latest available ${year} counseling data; 2026 row unavailable${round}`;return `<span class="trend trend-na" title="${esc(basis)}">${ENGINEERING_CUTOFF_LABEL}</span><span class="small"> · ${esc(basis)}</span>`}
+function trendMarkup(rec){if(rec.instituteType==='IIT')return `<span class="trend trend-na">${ENGINEERING_CUTOFF_LABEL}</span>`;const year=Number(rec.year)||2025,rawRound=String(rec.round||''),round=rawRound?` · ${/^\d+$/.test(rawRound)?`R${rawRound}`:rawRound.replace(/^Round\s*/i,'R')}`:'',basis=year===2026?`Based on 2026 counseling data${round}`:`Based on latest available ${year} counseling data; 2026 row unavailable${round}`;return `<span class="trend trend-na" title="${esc(basis)}">${ENGINEERING_CUTOFF_LABEL}</span><span class="small"> · ${esc(basis)}</span>`}
 function stat(label,value,sub=''){return `<div class="stat-card"><span>${esc(label)}</span><strong>${esc(value)}</strong>${sub?`<small class="small">${esc(sub)}</small>`:''}</div>`}
 const categoryRankFactor={OPEN:1,EWS:.105,'OBC-NCL':.30,SC:.18,ST:.075,UR:1,OBC:.30};
 function categoryRank(air,category,ratios){if(n(air)==null)return null;const f=n(ratios?.[category]??categoryRankFactor[category]??1)||1;return Math.max(1,Math.round(Number(air)*f))}
+const JEE_ADVANCED_AIR_CURVE=[[0,200000],[95,22000],[125,13000],[165,6000],[210,2000],[260,500],[310,100],[360,1]];
+function estimateJeeAdvancedAir(marks,difficulty){const shifts={easy:-10,moderate:0,tough:10},score=Math.max(0,Math.min(360,marks+(shifts[difficulty]||0)));for(let i=1;i<JEE_ADVANCED_AIR_CURVE.length;i++){const [upperMarks,upperRank]=JEE_ADVANCED_AIR_CURVE[i];if(score<=upperMarks){const [lowerMarks,lowerRank]=JEE_ADVANCED_AIR_CURVE[i-1];return Math.max(1,Math.round(lowerRank+(score-lowerMarks)*(upperRank-lowerRank)/(upperMarks-lowerMarks)))}}return 1}
+function estimatedAirRange(air){return{low:Math.max(1,Math.floor(air*.85)),high:Math.ceil(air*1.15),estimate:air}}
 const NEET_2025_APPEARED=2209318;
 const NEET_CUTOFF_LABEL='2027 Projected Cutoff';
 const ENGINEERING_CUTOFF_LABEL='2027 Projected Cutoff';
@@ -92,19 +95,113 @@ function renderCollegeCards(prefix,state,rows){
  }).join('');
 }
 
-async function initJee(){const prefix='jee',form=$('#jee-form');if(!form)return;const state={rows:[],byId:new Map(),rank:null,air:null,categoryRank:null};let data,marksData;try{[data,marksData]=await Promise.all([load('josaa-cutoffs.json'),load('jee-marks-percentile.json')])}catch(e){status($('#jee-result-note'),e.message);return}
- const exam=$('#jee-exam'),mode=$('#jee-input-mode'),homeState=$('#jee-home-state');function updateHomeStateRequirement(){homeState.required=exam.value==='main'}exam.addEventListener('change',updateHomeStateRequirement);form.addEventListener('reset',()=>setTimeout(updateHomeStateRequirement,0));updateHomeStateRequirement();toggleInputs(mode,{'.jee-marks-field':['marks'],'.jee-shift-field':['marks'],'.jee-percentile-field':['percentile'],'.jee-air-field':['air']});const twoStep=setupTwoStep(prefix,form,mode,['air']);
+async function initJee(){
+ const prefix='jee',form=$('#jee-form');if(!form)return;
+ const state={rows:[],byId:new Map(),rank:null,air:null,categoryRank:null};
+ let data,marksData;
+ try{[data,marksData]=await Promise.all([load('josaa-cutoffs.json'),load('jee-marks-percentile.json')])}catch(e){status($('#jee-result-note'),e.message);return}
+ const exam=$('#jee-exam'),mode=$('#jee-input-mode'),homeState=$('#jee-home-state'),homeStateField=$('#jee-home-state-field'),advancedQuotaNote=$('#jee-advanced-quota-note'),marksInput=$('#jee-marks'),shiftInput=$('#jee-shift'),percentileOption=mode.querySelector('option[value="percentile"]'),twoStep=setupTwoStep(prefix,form,mode,['air']);
+ function updateModeFields(){const advanced=exam.value==='advanced';$('.jee-marks-field').hidden=mode.value!=='marks';$('.jee-shift-field').hidden=mode.value!=='marks';$('.jee-percentile-field').hidden=advanced||mode.value!=='percentile';$('.jee-air-field').hidden=mode.value!=='air'}
+ function updateExamForm(){
+  const advanced=exam.value==='advanced';
+  percentileOption.hidden=advanced;
+  if(advanced&&mode.value==='percentile')mode.value='marks';
+  $('#jee-input-mode option[value="marks"]').textContent=advanced?'Expected JEE Advanced marks + paper difficulty':'Expected JEE Main marks + shift';
+  $('#jee-input-mode option[value="percentile"]').textContent='Known JEE Main percentile';
+  $('#jee-input-mode option[value="air"]').textContent=advanced?'Known JEE Advanced AIR / Category Rank':'Known AIR / category rank';
+  $('#jee-marks-label').textContent=advanced?'Expected JEE Advanced Marks (out of 360)':'Expected JEE Main Marks (out of 300)';
+  marksInput.max=advanced?'360':'300';
+  marksInput.placeholder=advanced?'e.g. 165':'e.g. 150';
+  if(!advanced&&Number(marksInput.value)>300)marksInput.value='300';
+  $('#jee-shift-label').textContent=advanced?'JEE Advanced Paper Difficulty':'JEE Main Shift Difficulty';
+  const difficultyLabels=advanced?{moderate:'Moderate Paper',tough:'Tough Paper',easy:'Easy Paper'}:{moderate:'Moderate',easy:'Easy',tough:'Tough'};
+  for(const value of advanced?['moderate','tough','easy']:['moderate','easy','tough']){
+   const option=shiftInput.querySelector(`option[value="${value}"]`);
+   option.textContent=difficultyLabels[value];
+   shiftInput.append(option)
+  }
+  homeStateField.hidden=advanced;
+  homeState.disabled=advanced;
+  homeState.required=!advanced;
+  advancedQuotaNote.hidden=!advanced;
+  $('#jee-rank-label').textContent=advanced?'Known JEE Advanced AIR / category rank':'Rank';
+  $('#jee-rank').placeholder=advanced?'AIR for OPEN; JEE Advanced category rank for reserved seats':'AIR for OPEN; category rank for reserved seats';
+  updateModeFields()
+ }
+ exam.addEventListener('change',()=>{updateExamForm();twoStep.reset()});
+ mode.addEventListener('change',()=>{updateModeFields();twoStep.reset()});
+ form.addEventListener('reset',()=>setTimeout(updateExamForm,0));
+ updateExamForm();
  function draw(){const result=renderTable(prefix,state,rows=>renderCollegeCards(prefix,state,rows));status($('#jee-result-note'),`${result.total.toLocaleString()} eligible course rows across ${result.eligibleCollegeTotal.toLocaleString()} colleges${result.total>result.shown?` - showing first ${result.shown}`:''}. Chances are rank-based heuristics; placement figures come from the supplied college list.`);return result}
  setupSearchAndFilters(prefix,state,draw);initChoices(prefix,state);
- form.addEventListener('submit',e=>{e.preventDefault();twoStep.reset();try{const type=exam.value,category=$('#jee-category').value,imode=mode.value,home=$('#jee-home-state').value;let air=null,catRank=null,percentile=null,sourceLabel='',airRange=null;
- if(imode==='marks'){if(type==='advanced')throw Error('JEE Advanced rank cannot be estimated from the JEE Main marks curve. Select Known AIR / category rank.');const marks=+$('#jee-marks').value,curve=marksData.curves?.[$('#jee-shift').value];if(!curve?.length)throw Error('JEE Main marks curve is missing.');const point=curve[Math.max(0,Math.min(300,Math.round(marks)))];percentile=point.percentile;airRange=projectedAirRange(percentile,1450000,1550000);air=airRange.estimate;catRank=categoryRank(air,category,marksData.categoryRankRatios);sourceLabel=`${$('#jee-shift').value} shift estimate · 2025 curve`}
- else if(imode==='percentile'){percentile=+$('#jee-percentile').value;if(!Number.isFinite(percentile)||percentile<0||percentile>100)throw Error('Enter a percentile from 0 to 100.');airRange=projectedAirRange(percentile,1450000,1550000);air=airRange.estimate;catRank=categoryRank(air,category,marksData.categoryRankRatios);sourceLabel='2027 planning estimate - 1.45-1.55M candidates'}
- else{const entered=+$('#jee-rank').value;if(!entered)throw Error('Enter a rank.');if(category==='OPEN'){air=entered;catRank=entered;sourceLabel='known AIR'}else{catRank=entered;if(type==='advanced'){air=null;sourceLabel='known JEE Advanced category rank; AIR not inferred'}else{const factor=n(data.categoryRankRatios?.[category]??categoryRankFactor[category]??1);air=Math.round(entered/(factor||1));sourceLabel='known category rank; AIR back-calculated with approximate category ratio'}}}
- state.air=air;state.rank=category==='OPEN'?air:catRank;state.categoryRank=catRank;
- const wants=[...$$('input[name="jee-branch"]:checked')].map(x=>x.value),pwd=$('#jee-pwd').checked,gender=$('#jee-gender').value,specialQuotaState={GO:'Goa',JK:'Jammu and Kashmir',LA:'Ladakh'};
- let rows=data.records.filter(r=>{const isIit=r.instituteType==='IIT'||/indian institute of technology/i.test(r.college);if(type==='advanced'?!isIit:isIit)return false;const rowcat=String(r.category||'').toUpperCase();if(pwd?!rowcat.includes('PWD'):rowcat.includes('PWD'))return false;if(!matchCategory(rowcat,category))return false;if(r.gender!==gender)return false;if(wants.length&&!wants.includes(r.branch))return false;const rowQuota=String(r.quota||'').toUpperCase(),stateName=r.collegeState||stateFor(r.college); if(type==='main'&&rowQuota==='HS'&&(!home||stateName!==home))return false;if(type==='main'&&rowQuota==='OS'&&stateName===home&&home)return false;if(type==='main'&&['HS','OS'].includes(rowQuota)&&!home&&rowQuota==='HS')return false;if(type==='main'&&specialQuotaState[rowQuota]&&home!==specialQuotaState[rowQuota])return false;const close=n(r.closingRank);if(!close)return false;const ch=r.isPreparatory?'Reference only':chanceFor(state.rank,close);if(ch==='Outside range')return false;r.chance=ch;r._distance=r.isPreparatory?Infinity:Math.abs(state.rank-close);r._id=makeId(prefix,r);r.year=r.year||2025;return true});
- state.rows=rows.map(r=>attachSearch(r,prefix));state.byId=new Map(state.rows.map(r=>[makeId(prefix,r),r]));const result=draw();$('#jee-stats').innerHTML=[stat('Percentile',percentile==null?'—':Number(percentile).toFixed(4),'marks curve is an estimate'),stat(imode==='air'?(type==='advanced'&&category!=='OPEN'?'Entered category rank':category==='OPEN'?'Entered AIR':'Approx. AIR'):'Estimated AIR range',airRange?`${rankfmt(airRange.low)}-${rankfmt(airRange.high)}`:rankfmt(imode==='air'&&type==='advanced'&&category!=='OPEN'?catRank:air),airRange?'2027 planning scenarios - not official':sourceLabel),stat('Category rank',rankfmt(catRank),category==='OPEN'?'same as CRL':type==='advanced'?'entered category rank':'ratio-based planning estimate'),stat('Eligible colleges',result.eligibleCollegeTotal.toLocaleString(),'within 20% of matched cutoff')].join('');twoStep.complete();
- }catch(err){$('#jee-stats').innerHTML='';status($('#jee-result-note'),err.message)}});
+ form.addEventListener('submit',e=>{
+  e.preventDefault();twoStep.reset();
+  try{
+   const type=exam.value,category=$('#jee-category').value,imode=mode.value,home=homeState.value;
+   let air=null,catRank=null,percentile=null,sourceLabel='',airRange=null;
+   if(imode==='marks'){
+    const marks=Number(marksInput.value),maxMarks=type==='advanced'?360:300;
+    if(!Number.isFinite(marks)||marks<0||marks>maxMarks)throw Error(`Enter valid marks from 0 to ${maxMarks}.`);
+    if(type==='advanced'){
+     air=estimateJeeAdvancedAir(marks,shiftInput.value);
+     catRank=categoryRank(air,category,marksData.categoryRankRatios);
+     airRange=estimatedAirRange(air);
+     sourceLabel=`JEE Advanced 360-mark curve · ${shiftInput.options[shiftInput.selectedIndex].text}`;
+    }else{
+     const curve=marksData.curves?.[shiftInput.value];
+     if(!curve?.length)throw Error('JEE Main marks curve is missing.');
+     const point=curve[Math.round(marks)];
+     percentile=point.percentile;
+     airRange=projectedAirRange(percentile,1450000,1550000);
+     air=airRange.estimate;
+     catRank=categoryRank(air,category,marksData.categoryRankRatios);
+     sourceLabel=`${shiftInput.value} shift estimate · 2025 curve`
+    }
+   }else if(imode==='percentile'){
+    if(type==='advanced')throw Error('JEE Advanced does not use a percentile input. Choose marks or a known AIR / category rank.');
+    percentile=Number($('#jee-percentile').value);
+    if(!Number.isFinite(percentile)||percentile<0||percentile>100)throw Error('Enter a percentile from 0 to 100.');
+    airRange=projectedAirRange(percentile,1450000,1550000);
+    air=airRange.estimate;
+    catRank=categoryRank(air,category,marksData.categoryRankRatios);
+    sourceLabel='2027 planning estimate - 1.45-1.55M candidates'
+   }else{
+    const entered=Number($('#jee-rank').value);
+    if(!Number.isInteger(entered)||entered<1)throw Error('Enter a positive whole-number rank.');
+    if(category==='OPEN'){air=entered;catRank=entered;sourceLabel='known AIR'}
+    else{
+     catRank=entered;
+     if(type==='advanced'){sourceLabel='known JEE Advanced category rank; AIR not inferred'}
+     else{const factor=n(data.categoryRankRatios?.[category]??categoryRankFactor[category]??1);air=Math.round(entered/(factor||1));sourceLabel='known category rank; AIR back-calculated with approximate category ratio'}
+    }
+   }
+   state.air=air;state.rank=category==='OPEN'?air:catRank;state.categoryRank=catRank;
+   const wants=[...$$('input[name="jee-branch"]:checked')].map(x=>x.value),pwd=$('#jee-pwd').checked,gender=$('#jee-gender').value,specialQuotaState={GO:'Goa',JK:'Jammu and Kashmir',LA:'Ladakh'};
+   const rows=data.records.filter(r=>{
+    const isIit=r.instituteType==='IIT',rowQuota=String(r.quota||'').toUpperCase();
+    if(type==='advanced'?(!isIit||rowQuota!=='AI'):isIit)return false;
+    const rowcat=String(r.category||'').toUpperCase();
+    if(pwd?!rowcat.includes('PWD'):rowcat.includes('PWD'))return false;
+    if(!matchCategory(rowcat,category)||r.gender!==gender)return false;
+    if(wants.length&&!wants.includes(r.branch))return false;
+    const stateName=r.collegeState||stateFor(r.college);
+    if(type==='main'&&rowQuota==='HS'&&(!home||stateName!==home))return false;
+    if(type==='main'&&rowQuota==='OS'&&stateName===home&&home)return false;
+    if(type==='main'&&['HS','OS'].includes(rowQuota)&&!home&&rowQuota==='HS')return false;
+    if(type==='main'&&specialQuotaState[rowQuota]&&home!==specialQuotaState[rowQuota])return false;
+    const close=n(r.closingRank);
+    if(!close)return false;
+    const chance=r.isPreparatory?'Reference only':chanceFor(state.rank,close);
+    if(chance==='Outside range')return false;
+    r.chance=chance;r._distance=r.isPreparatory?Infinity:Math.abs(state.rank-close);r._id=makeId(prefix,r);r.year=r.year||2025;
+    return true
+   });
+   state.rows=rows.map(r=>attachSearch(r,prefix));state.byId=new Map(state.rows.map(r=>[makeId(prefix,r),r]));
+   const result=draw(),airSummary=type==='advanced'?(air===null?'—':rankfmt(air)):(percentile===null?'—':Number(percentile).toFixed(4)),airLabel=type==='advanced'?'EXPECTED AIR':'PERCENTILE',airSub=type==='advanced'?(imode==='air'?sourceLabel:`${sourceLabel} · estimate`):'marks curve is an estimate',airRangeLabel=imode==='air'?(type==='advanced'&&category!=='OPEN'?'Entered category rank':category==='OPEN'?'Entered AIR':'Approx. AIR'):'Estimated AIR range',airRangeValue=airRange?`${rankfmt(airRange.low)}-${rankfmt(airRange.high)}`:rankfmt(imode==='air'&&type==='advanced'&&category!=='OPEN'?catRank:air),categorySub=category==='OPEN'?'same as CRL':type==='advanced'?(imode==='air'?'entered category rank':'estimated from category-rank ratio'):'ratio-based planning estimate';
+   $('#jee-stats').innerHTML=[stat(airLabel,airSummary,airSub),stat(airRangeLabel,airRangeValue,airRange?'planning estimate - not official':sourceLabel),stat('Category rank',rankfmt(catRank),categorySub),stat('Eligible colleges',result.eligibleCollegeTotal.toLocaleString(),'within 20% of matched cutoff')].join('');
+   twoStep.complete()
+  }catch(err){$('#jee-stats').innerHTML='';status($('#jee-result-note'),err.message)}
+ })
 }
 
 function interpolateAir(score,table){const x=table?.find(r=>r.score===Math.round(score));return x||table?.find(r=>r.score===score)||null}
