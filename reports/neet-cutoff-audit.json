@@ -1,0 +1,88 @@
+{
+  "collegeCourseRecords": 1160,
+  "activeUniqueRows": 11600,
+  "duplicateActiveRows": 0,
+  "existingHistoricalRowsPreservedExactly": 2265,
+  "historicalRowsRestored": 3158,
+  "restoredByYear": {
+    "2026": 1059,
+    "2025": 2099
+  },
+  "historicalRowsAfterAudit": 5423,
+  "historicalRowsByYear": {
+    "2025": 2414,
+    "2026": 3009
+  },
+  "collegesWithHistoricalDataByYear": {
+    "2025": 557,
+    "2026": 589
+  },
+  "exactHistoricalBaselineRowsByYear": {
+    "2026": 2795,
+    "2025": 114
+  },
+  "collegesWith2026HistoricalData": 589,
+  "availableRowsWithoutExactCategoryAIR": 6976,
+  "historicalRankLists": {
+    "NEET All India Rank": 5365,
+    "Chhattisgarh State Merit Rank": 58
+  },
+  "unassignedHistoricalRowsPreserved": 20,
+  "evidence": {
+    "gitRevision": "7f2cdb73db91d261a0d70b10557a3bc34ae94b41",
+    "file": "data/neet-cutoffs.json",
+    "sha256": "c24f001a888c953c1669c0166f70a74d5ce107132aa5bd14ac743e84f7fd05bf"
+  },
+  "matchedSourceNames": 1194,
+  "unmatchedSourceNames": [
+    {
+      "college": "FACULTY OF DEN SCI",
+      "course": "BDS",
+      "years": [
+        2025
+      ],
+      "rows": 5
+    },
+    {
+      "college": "Government Medical College",
+      "course": "MBBS",
+      "years": [
+        2025
+      ],
+      "rows": 3
+    },
+    {
+      "college": "Government Medical College, Mumbai",
+      "course": "MBBS",
+      "years": [
+        2025
+      ],
+      "rows": 4
+    },
+    {
+      "college": "Government medical College",
+      "course": "MBBS",
+      "years": [
+        2025
+      ],
+      "rows": 2
+    },
+    {
+      "college": "Govt Medical College",
+      "course": "MBBS",
+      "years": [
+        2025
+      ],
+      "rows": 5
+    },
+    {
+      "college": "Institute of Medical Sciences and SUM Host., Bhubaneswar",
+      "course": "MBBS",
+      "years": [
+        2025
+      ],
+      "rows": 1
+    }
+  ],
+  "policy": "One active 2027 Projected Cutoff per college/course/quota/category. Exact latest matching historical AIR is carried forward unchanged. Original source years and all historical intervals remain preserved. Older/state-merit evidence and unsourced assumptions are never labeled as actual 2026 AIR."
+}

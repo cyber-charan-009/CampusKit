@@ -1,0 +1,1989 @@
+{
+  "source": "https://dciindia.gov.in/CollegeSearch.aspx?ColName=&CourseId=1&SplId=0&StateId=",
+  "retrieved": "2026-11-28",
+  "intakeSession": "2025-26",
+  "htmlSha256": "c0c5e313f82bc83ea9986f65ab29946ba91a63a6318fa43c3fbd221514849f6b",
+  "status": "Historical state/ownership/intake metadata; not a 2027 seat matrix or a cutoff source",
+  "records": [
+    {
+      "college": "Anil Neerukonda Institute of Dental Sciences, Visakhapatnam",
+      "state": "Andhra Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "C.K.S. Teja Institute of Dental Sciences & Research, Tirupati",
+      "state": "Andhra Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Care Dental College, Guntur",
+      "state": "Andhra Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 50
+    },
+    {
+      "college": "Drs. Sudha & Nageswara Rao Siddhartha Institute of Dental Sciences, Gannavaram Mandalam",
+      "state": "Andhra Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "G. Pulla Reddy Dental College & Hospital, Kurnool",
+      "state": "Andhra Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 50
+    },
+    {
+      "college": "Gitam Dental College & Hospital, Vishakhapatnam",
+      "state": "Andhra Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Govt. Dental College & Hospital, Vijayawada",
+      "state": "Andhra Pradesh",
+      "ownership": "Govt.",
+      "bdsSeats": 40
+    },
+    {
+      "college": "Govt. Dental College, RIMS, Kadapa",
+      "state": "Andhra Pradesh",
+      "ownership": "Govt.",
+      "bdsSeats": 100
+    },
+    {
+      "college": "GSL Dental College & Hospital, Rajahmundry",
+      "state": "Andhra Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "KIMS Dental College, Amalapuram",
+      "state": "Andhra Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Lenora Institute of Dental Sciences, Rajahmundry",
+      "state": "Andhra Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Narayana Dental College & Hospital, Nellore",
+      "state": "Andhra Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Nimra Institute of Dental Sciences",
+      "state": "Andhra Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Sibar Institute of Dental Sciences, Guntur",
+      "state": "Andhra Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Sree Sai Dental College & Research Institute, Srikakulam",
+      "state": "Andhra Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "St. Joseph Dental College, Duggirala",
+      "state": "Andhra Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Vishnu Dental College, Bhimavaram",
+      "state": "Andhra Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Govt. Dental College, Dibrugarh, Assam",
+      "state": "Assam",
+      "ownership": "Govt.",
+      "bdsSeats": 63
+    },
+    {
+      "college": "Govt. Dental College, Silchar, Assam",
+      "state": "Assam",
+      "ownership": "Govt.",
+      "bdsSeats": 63
+    },
+    {
+      "college": "Regional Dental College, Guwahati",
+      "state": "Assam",
+      "ownership": "Govt.",
+      "bdsSeats": 50
+    },
+    {
+      "college": "Buddha Institute of Dental Sciences & Hospital, Kankarbagh, Patna",
+      "state": "Bihar",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Government Dental College & Hospital, Nalanda",
+      "state": "Bihar",
+      "ownership": "Govt.",
+      "bdsSeats": 0
+    },
+    {
+      "college": "Mithila Minority Dental College & Hospital, Darbhanga",
+      "state": "Bihar",
+      "ownership": "Private",
+      "bdsSeats": 60
+    },
+    {
+      "college": "Patna Dental College & Hospital, Patna",
+      "state": "Bihar",
+      "ownership": "Govt.",
+      "bdsSeats": 40
+    },
+    {
+      "college": "Sarjug Dental College, Darbhanga",
+      "state": "Bihar",
+      "ownership": "Private",
+      "bdsSeats": 40
+    },
+    {
+      "college": "Dr. Harvansh Singh Judge Institute of Dental Sciences & Hospital, Chandigarh",
+      "state": "Chandigarh",
+      "ownership": "Govt.",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Chattisgarh Dental College & Research Institute, Rajnandgaon",
+      "state": "Chhattisgarh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Govt. Dental College, Raipur, Chhattisgarh",
+      "state": "Chhattisgarh",
+      "ownership": "Govt.",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Maitri College of Dentistry and Research Centre, Durg",
+      "state": "Chhattisgarh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "New Horizon Dental College & Research Instiute, Bilaspur",
+      "state": "Chhattisgarh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Rungta College of Dental Sciences & Research, Bhilai",
+      "state": "Chhattisgarh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Shri Balaji Institute of Dental Sciences, Raipur",
+      "state": "Chhattisgarh",
+      "ownership": "",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Triveni Institute of Dental Sciences, Hosptial & Research Centre, Bilaspur",
+      "state": "Chhattisgarh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Vaidik Dental College and Research Centre,",
+      "state": "Dadra and Nagar Haveli and Daman and Diu",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Army Hospital (Research and Referral) Delhi Cantt, Delhi",
+      "state": "Delhi",
+      "ownership": "Govt.",
+      "bdsSeats": null
+    },
+    {
+      "college": "ESIC Dental College, Rohini, New Delhi",
+      "state": "Delhi",
+      "ownership": "Govt.",
+      "bdsSeats": 62
+    },
+    {
+      "college": "Faculty of Dentistry, Jamia Millia Islamia, New Delhi",
+      "state": "Delhi",
+      "ownership": "Govt.",
+      "bdsSeats": 50
+    },
+    {
+      "college": "Lady Hardinge Medical College & Smt. Sucheta Kriplani Hospital New Delhi",
+      "state": "Delhi",
+      "ownership": "Govt.",
+      "bdsSeats": null
+    },
+    {
+      "college": "Maulana Azad Dental College & Hospital, New Delhi",
+      "state": "Delhi",
+      "ownership": "Govt.",
+      "bdsSeats": 50
+    },
+    {
+      "college": "University College of Medical Sciences, Dilshad Garden",
+      "state": "Delhi",
+      "ownership": "Govt.",
+      "bdsSeats": null
+    },
+    {
+      "college": "Goa Dental College & Hospital, Goa",
+      "state": "Goa",
+      "ownership": "Govt.",
+      "bdsSeats": 50
+    },
+    {
+      "college": "Ahmedabad Dental College & Hospital, Gandhinagar",
+      "state": "Gujarat",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "AMC Dental College, Ahmedabad",
+      "state": "Gujarat",
+      "ownership": "Govt.",
+      "bdsSeats": 125
+    },
+    {
+      "college": "College of Dental Sciences and Research Centre, Ahmedabad",
+      "state": "Gujarat",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "College of Dental Sciences, Amargadh",
+      "state": "Gujarat",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Faculty of Dental Science, Dharmsinh Desai University, Nadiad",
+      "state": "Gujarat",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Goenka Research Institute of Dental Sciences, Gandhinagar",
+      "state": "Gujarat",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Govt. Dental College & Hospital, Ahmedabad",
+      "state": "Gujarat",
+      "ownership": "Govt.",
+      "bdsSeats": 125
+    },
+    {
+      "college": "Govt. Dental College Hospital, Jamnagar",
+      "state": "Gujarat",
+      "ownership": "Govt.",
+      "bdsSeats": 125
+    },
+    {
+      "college": "K.M. Shah Dental College & Hospital, Vadodara",
+      "state": "Gujarat",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Karnavati School of Dentistry, Gandhinagar",
+      "state": "Gujarat",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Manubhai Patel Dental College & Dental Hospital & SSR General Hospital, Vadodara",
+      "state": "Gujarat",
+      "ownership": "Private",
+      "bdsSeats": 40
+    },
+    {
+      "college": "Narsinhbhai Patel Dental College & Hospital, Visnagar",
+      "state": "Gujarat",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Siddhpur Dental College, Patan",
+      "state": "Gujarat",
+      "ownership": "Govt.",
+      "bdsSeats": 125
+    },
+    {
+      "college": "D.A.V. Centenary Dental College, Yamuna nagar",
+      "state": "Haryana",
+      "ownership": "Private",
+      "bdsSeats": 50
+    },
+    {
+      "college": "Jan Nayak Ch. Devi Lal Dental College, Sirsa",
+      "state": "Haryana",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Maharishi Markandeshwar College of Dental Sciences & Research, Mullana",
+      "state": "Haryana",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Manav Rachana Dental College, Faridabad",
+      "state": "Haryana",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "PDM Dental College & Research Institute, Jhajjar",
+      "state": "Haryana",
+      "ownership": "Private",
+      "bdsSeats": 0
+    },
+    {
+      "college": "Post Graduate Institute of Dental Sciences, Rohtak",
+      "state": "Haryana",
+      "ownership": "Govt.",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Sri Govind Tricentenary Dental College, Hospital & Research Institute",
+      "state": "Haryana",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Sudha Rustagi College of Dental Sciences & Research,Faridabad",
+      "state": "Haryana",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Swami Devi Dyal Hospital & Dental College, Panchkula",
+      "state": "Haryana",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Yamuna Institute of Dental Sciences & Research, Yamuna Nagar",
+      "state": "Haryana",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Bhojia Dental College & Hospital, Nalagarh",
+      "state": "Himachal Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 60
+    },
+    {
+      "college": "H.P. Govt. Dental College & Hospital, Shimla",
+      "state": "Himachal Pradesh",
+      "ownership": "Govt.",
+      "bdsSeats": 75
+    },
+    {
+      "college": "Himachal Dental College, Sunder Nagar",
+      "state": "Himachal Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 60
+    },
+    {
+      "college": "Himachal Institute of Dental Sciences, Poanta Sahib",
+      "state": "Himachal Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Govt. Dental College, Srinagar",
+      "state": "Jammu and Kashmir",
+      "ownership": "Govt.",
+      "bdsSeats": 63
+    },
+    {
+      "college": "Indira Gandhi Government Dental College, Jammu",
+      "state": "Jammu and Kashmir",
+      "ownership": "Govt.",
+      "bdsSeats": 63
+    },
+    {
+      "college": "Institute of Dental Sciences, Sehora",
+      "state": "Jammu and Kashmir",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Awadh Dental College & Hospital, Jamshedpur",
+      "state": "Jharkhand",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Dental Institute Rajendra Institute of Medical Sciences, Ranchi",
+      "state": "Jharkhand",
+      "ownership": "Govt.",
+      "bdsSeats": 63
+    },
+    {
+      "college": "Hazaribag College of Dental Sciences and Hospital, Hazaribag",
+      "state": "Jharkhand",
+      "ownership": "Private",
+      "bdsSeats": 0
+    },
+    {
+      "college": "Vananchal Dental College & Hospital, Garhwa",
+      "state": "Jharkhand",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "A.B. Shetty Memorial Institute of Dental Sciences, Mangalore",
+      "state": "Karnataka",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "A.J. Institute of Dental Sciences, Mangalore",
+      "state": "Karnataka",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Al Ameen Dental College & Hospital, Bijapur",
+      "state": "Karnataka",
+      "ownership": "Private",
+      "bdsSeats": 40
+    },
+    {
+      "college": "Al-Badar Rural Dental College & Hospital, Gulbarga",
+      "state": "Karnataka",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "AME’s Dental College & Hospital, Raichur",
+      "state": "Karnataka",
+      "ownership": "Private",
+      "bdsSeats": 50
+    },
+    {
+      "college": "Bangalore Institute of Dental Sciences & Hospital, Bangalore",
+      "state": "Karnataka",
+      "ownership": "Private",
+      "bdsSeats": 50
+    },
+    {
+      "college": "Bapuji Dental College & Hospital, Davangere",
+      "state": "Karnataka",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "BGS Global Institute of Dental Sciences and Hospital, Bangalore",
+      "state": "Karnataka",
+      "ownership": "Private",
+      "bdsSeats": 50
+    },
+    {
+      "college": "College of Dental Sciences, Davangere",
+      "state": "Karnataka",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Coorg Institute of Dental Sciences, Virajpat",
+      "state": "Karnataka",
+      "ownership": "Private",
+      "bdsSeats": 40
+    },
+    {
+      "college": "D.A. Pandu Memorial R.V. Dental College, Bangalore",
+      "state": "Karnataka",
+      "ownership": "Private",
+      "bdsSeats": 50
+    },
+    {
+      "college": "Dayanand Sagar College of Dental Sciences, Bangalore",
+      "state": "Karnataka",
+      "ownership": "Private",
+      "bdsSeats": 50
+    },
+    {
+      "college": "Dr. Syamala Reddy Dental College, Hospital & Research Centre, Bangalore",
+      "state": "Karnataka",
+      "ownership": "Private",
+      "bdsSeats": 0
+    },
+    {
+      "college": "ESIC Dental College, Gulbarga",
+      "state": "Karnataka",
+      "ownership": "Govt.",
+      "bdsSeats": 62
+    },
+    {
+      "college": "Farooqia Dental College & Hospital, Mysore",
+      "state": "Karnataka",
+      "ownership": "Private",
+      "bdsSeats": 0
+    },
+    {
+      "college": "Govt. Dental College & Research Institute, Bellary",
+      "state": "Karnataka",
+      "ownership": "Govt.",
+      "bdsSeats": 63
+    },
+    {
+      "college": "Govt. Dental College, Bangalore",
+      "state": "Karnataka",
+      "ownership": "Govt.",
+      "bdsSeats": 60
+    },
+    {
+      "college": "H.K.D.E.Ts Dental College, Hospital & Research Institute, Humnabad",
+      "state": "Karnataka",
+      "ownership": "Private",
+      "bdsSeats": 40
+    },
+    {
+      "college": "H.K.E. Society's, S. Nijalingappa Institute of Dental Sciences & Research",
+      "state": "Karnataka",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "JSS Dental College & Hospital, Mysore",
+      "state": "Karnataka",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "K.G.F. College of Dental Sciences & Hospital, KGF",
+      "state": "Karnataka",
+      "ownership": "Private",
+      "bdsSeats": 50
+    },
+    {
+      "college": "K.V.G. Dental College & Hospital, Sullia",
+      "state": "Karnataka",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "KLE Society’s Institute of Dental Sciences,Bangalore",
+      "state": "Karnataka",
+      "ownership": "Private",
+      "bdsSeats": 50
+    },
+    {
+      "college": "KLE Vishwanath Katti Institute of Dental Sciences, Belgaum",
+      "state": "Karnataka",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Krishnadevaraya College of Dental Sciences & Hospital, Bangalore",
+      "state": "Karnataka",
+      "ownership": "Private",
+      "bdsSeats": 50
+    },
+    {
+      "college": "M.R. Ambedkar Dental College & Hospital, Bangalore",
+      "state": "Karnataka",
+      "ownership": "Private",
+      "bdsSeats": 99
+    },
+    {
+      "college": "M.S. Ramaiah Dental College, Bangalore",
+      "state": "Karnataka",
+      "ownership": "Private",
+      "bdsSeats": 50
+    },
+    {
+      "college": "Manipal College of Dental Sciences, Mangalore",
+      "state": "Karnataka",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Manipal College of Dental Sciences, Manipal",
+      "state": "Karnataka",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Maratha Mandal’s Dental College & Research Centre, Belgaum",
+      "state": "Karnataka",
+      "ownership": "Private",
+      "bdsSeats": 50
+    },
+    {
+      "college": "Navodaya Dental College, Raichur",
+      "state": "Karnataka",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "P.M.N.M. Dental College & Hospital, Bagalkot",
+      "state": "Karnataka",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Rajarajeswari Dental College & Hospital, Bangalore",
+      "state": "Karnataka",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "S.B. Patil Dental College & Hospital, Bidar",
+      "state": "Karnataka",
+      "ownership": "Private",
+      "bdsSeats": 50
+    },
+    {
+      "college": "S.J.M. Dental College & Hospital, Chitradurga",
+      "state": "Karnataka",
+      "ownership": "Private",
+      "bdsSeats": 50
+    },
+    {
+      "college": "SDM College of Dental Sciences & Hospital, Dharwad",
+      "state": "Karnataka",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Sharavathi Dental College & Hospital, Shimoga",
+      "state": "Karnataka",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Sri Hasanamba Dental College & Hospital, Hassan",
+      "state": "Karnataka",
+      "ownership": "Private",
+      "bdsSeats": 40
+    },
+    {
+      "college": "Sri Rajiv Gandhi College of Dental Sciences & Hospital, Bangalore",
+      "state": "Karnataka",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Sri Siddhartha Dental College, Tumkur",
+      "state": "Karnataka",
+      "ownership": "Private",
+      "bdsSeats": 40
+    },
+    {
+      "college": "Sri Venkateshwara Dental College & Hospital, Bangalore",
+      "state": "Karnataka",
+      "ownership": "Private",
+      "bdsSeats": 50
+    },
+    {
+      "college": "Srinivas Institute of Dental Sciences, Mangalore",
+      "state": "Karnataka",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Subbaiah Institute of Dental Sciences, Purale, Shimoga",
+      "state": "Karnataka",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "The Oxford Dental College, Bangalore",
+      "state": "Karnataka",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "V.S. Dental College, Bangalore",
+      "state": "Karnataka",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Vydehi Institute of Dental Sciences & Research, Bangalore",
+      "state": "Karnataka",
+      "ownership": "Private",
+      "bdsSeats": 50
+    },
+    {
+      "college": "Yenepoya Dental College & Hospital, Mangalore",
+      "state": "Karnataka",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Al-Azhar Dental College, Kerala",
+      "state": "Kerala",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Amrita School of Dentistry, Kochi",
+      "state": "Kerala",
+      "ownership": "Private",
+      "bdsSeats": 50
+    },
+    {
+      "college": "Annoor Dental College & Hospital, Ernakulam",
+      "state": "Kerala",
+      "ownership": "Private",
+      "bdsSeats": 50
+    },
+    {
+      "college": "Azeezia College of Dental Sciences & Research, Kollam",
+      "state": "Kerala",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Educare Institute of Dental Sciences, Malappuram",
+      "state": "Kerala",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Govt. Dental College, Alappuzha",
+      "state": "Kerala",
+      "ownership": "Govt.",
+      "bdsSeats": 50
+    },
+    {
+      "college": "Govt. Dental College, Kottayam",
+      "state": "Kerala",
+      "ownership": "Govt.",
+      "bdsSeats": 40
+    },
+    {
+      "college": "Govt. Dental College, Kozhikode",
+      "state": "Kerala",
+      "ownership": "Govt.",
+      "bdsSeats": 50
+    },
+    {
+      "college": "Govt. Dental College, Thrissur",
+      "state": "Kerala",
+      "ownership": "Govt.",
+      "bdsSeats": 50
+    },
+    {
+      "college": "Govt. Dental College, Trivandrum",
+      "state": "Kerala",
+      "ownership": "Govt.",
+      "bdsSeats": 50
+    },
+    {
+      "college": "Indira Gandhi Institute of Dental Sciences, Kothamangalam",
+      "state": "Kerala",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Kannur Dental College, kannur",
+      "state": "Kerala",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "KMCT Dental College, Calicut",
+      "state": "Kerala",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Malabar Dental College & Research Centre, Malappuram",
+      "state": "Kerala",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Mar Baselios Dental College, Kothamangalam",
+      "state": "Kerala",
+      "ownership": "Private",
+      "bdsSeats": 50
+    },
+    {
+      "college": "MES Dental College, Malappuram",
+      "state": "Kerala",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Noorul Islam College of Dental Sciences, Trivandrum",
+      "state": "Kerala",
+      "ownership": "Private",
+      "bdsSeats": 50
+    },
+    {
+      "college": "Pariyaram Dental College, Academy of Medical Sciences, Kannur",
+      "state": "Kerala",
+      "ownership": "Govt.",
+      "bdsSeats": 60
+    },
+    {
+      "college": "PMS College of Dental Science & Research, Thiruvananthpuram",
+      "state": "Kerala",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "PSM College of Dental Sciences & Research, Trichur",
+      "state": "Kerala",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Pushpagiri College of Dental Sciences, Tiruvalla",
+      "state": "Kerala",
+      "ownership": "Private",
+      "bdsSeats": 50
+    },
+    {
+      "college": "Royal Dental College, kerala",
+      "state": "Kerala",
+      "ownership": "Private",
+      "bdsSeats": 60
+    },
+    {
+      "college": "Sree Anjaneya Medical Trust, Calicut",
+      "state": "Kerala",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Sri Sankara Dental College, Thiruvananthapuram",
+      "state": "Kerala",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "St. Gregorios Dental College, Ernakulam",
+      "state": "Kerala",
+      "ownership": "Private",
+      "bdsSeats": 50
+    },
+    {
+      "college": "Travancore Dental College",
+      "state": "Kerala",
+      "ownership": "Private",
+      "bdsSeats": 50
+    },
+    {
+      "college": "Bhabha College of Dental Sciences, Bhopal",
+      "state": "Madhya Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "College of Dental Sciences & Hospital, Indore",
+      "state": "Madhya Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 60
+    },
+    {
+      "college": "College of Dentistry- Indore",
+      "state": "Madhya Pradesh",
+      "ownership": "Govt.",
+      "bdsSeats": 113
+    },
+    {
+      "college": "Guru Gobind Singh College of Dental Science & Research Centre, Burhanpur",
+      "state": "Madhya Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 0
+    },
+    {
+      "college": "Hitkarini Dental College & Hospital, Jabalpur",
+      "state": "Madhya Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 60
+    },
+    {
+      "college": "Index Institute of Dental Sciences, Indore",
+      "state": "Madhya Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Maharana Pratap College of Dentistry & Research Centre, Gwalior",
+      "state": "Madhya Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Mansarover Dental College, Bhopal",
+      "state": "Madhya Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Modern Dental College & Research Centre, Indore",
+      "state": "Madhya Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "People’s Dental Academy, Bhopal",
+      "state": "Madhya Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Peoples College of Dental Sciences & Research Centre, Bhopal",
+      "state": "Madhya Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Rishiraj College of Dental Sciences & Research Centre, Bhopal",
+      "state": "Madhya Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "RKDF Dental College & Research Centre, Bhopal",
+      "state": "Madhya Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Sri Aurobindo College of Dentistry, Indore",
+      "state": "Madhya Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Aditya Dental College, Beed",
+      "state": "Maharashtra",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Annasaheb Chudaman Patil Memorial Dental College, Dhule",
+      "state": "Maharashtra",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Armed Forces Medical College, Pune-1",
+      "state": "Maharashtra",
+      "ownership": "Govt.",
+      "bdsSeats": null
+    },
+    {
+      "college": "Bharati Vidyapeeth Dental College & Hospital, Navi Mumbai",
+      "state": "Maharashtra",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Bharati Vidyapeeth Dental College & Hospital, Pune",
+      "state": "Maharashtra",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Bharati Vidyapeeth Dental College & Hospital, Sangli",
+      "state": "Maharashtra",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Chatrapati Shahu Maharaj Shikshan Sanstha’s Dental College & Hospital, Aurangabad",
+      "state": "Maharashtra",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "D.Y. Patil Dental School, Pune",
+      "state": "Maharashtra",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Datta Meghe Dental College, Hospital and Research Center, Nagpur",
+      "state": "Maharashtra",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Dr. D.Y. Patil Dental College & Hospital, Pune",
+      "state": "Maharashtra",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Dr. Hedgewar Smruti Rugna Seva Mandals Dental College & Hospital, Hingoli",
+      "state": "Maharashtra",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Dr. Rajesh Ramdasji Kambe Dental College & Hospital, Akola",
+      "state": "Maharashtra",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Govt. Dental College & Hospital, Aurangabad",
+      "state": "Maharashtra",
+      "ownership": "Govt.",
+      "bdsSeats": 63
+    },
+    {
+      "college": "Govt. Dental College & Hospital, Jalgaon",
+      "state": "Maharashtra",
+      "ownership": "",
+      "bdsSeats": 50
+    },
+    {
+      "college": "Govt. Dental College & Hospital, Mumbai",
+      "state": "Maharashtra",
+      "ownership": "Govt.",
+      "bdsSeats": 125
+    },
+    {
+      "college": "Govt. Dental College & Hospital, Nagpur",
+      "state": "Maharashtra",
+      "ownership": "Govt.",
+      "bdsSeats": 63
+    },
+    {
+      "college": "Late Shri Yashwantrao Chavan Memorial Medical & Rural Development Foundation's Dental College & Hospital, Ahmednagar",
+      "state": "Maharashtra",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "M.A. Rangoonwala College of Dental Sciences & Research Centre, Pune",
+      "state": "Maharashtra",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Maharashtra Institute of Dental Sciences & Research (Dental College)",
+      "state": "Maharashtra",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Mahatma Gandhi Missions Dental College & Hospital, Kamothe, Navi Mumbai",
+      "state": "Maharashtra",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Mahatma Gandhi Vidya Mandir’s Dental College & Hospital, Nashik",
+      "state": "Maharashtra",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Nair Hospital Dental College, Mumbai",
+      "state": "Maharashtra",
+      "ownership": "Govt.",
+      "bdsSeats": 75
+    },
+    {
+      "college": "Nanded Rural Dental College & Research Center, Nanded",
+      "state": "Maharashtra",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Padmashree Dr. D.Y. Patil Dental College & Hospital, Navi Mumbai",
+      "state": "Maharashtra",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Pandit Deendayal Upadhyay Dental College, Solapur",
+      "state": "Maharashtra",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Ranjeet Deshmukh Dental College and Research Centre, Nagpur",
+      "state": "Maharashtra",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Rural Dental College, Loni",
+      "state": "Maharashtra",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "S.M.B.T. Dental College & Hospital, Amrutnagar",
+      "state": "Maharashtra",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Saraswati Danwantri Dental College & Hospital, Parbhani",
+      "state": "Maharashtra",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "School of Dental Sciences, Krishna Institute of Medical Sciences, Karad",
+      "state": "Maharashtra",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Sharad Pawar Dental College & Hospital, Wardha",
+      "state": "Maharashtra",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Sinhgad Dental College & Hospital, Pune",
+      "state": "Maharashtra",
+      "ownership": "Private",
+      "bdsSeats": 0
+    },
+    {
+      "college": "SMBT Institute of Dental Sciences and Research, Nandihills, Nashik",
+      "state": "Maharashtra",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Swargiya Dadasaheb Kalmegh Smruti Dental College & Hospital, Nagpur",
+      "state": "Maharashtra",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Tatyasaheb Kore Dental College & Research Centre, New Pargaon",
+      "state": "Maharashtra",
+      "ownership": "Private",
+      "bdsSeats": 60
+    },
+    {
+      "college": "Terna Dental College & Hospital, Navi Mumbai",
+      "state": "Maharashtra",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Vasantdada Patil Dental College and Hospital, Sangli",
+      "state": "Maharashtra",
+      "ownership": "Private",
+      "bdsSeats": 40
+    },
+    {
+      "college": "Vidarbha Youth Welfare Society’s Dental College & Hospital, Amravati",
+      "state": "Maharashtra",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Yerala Medical Trust & Research Centre’s Dental College & Hospital, Navi Mumbai",
+      "state": "Maharashtra",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Yogita Dental College & Hospital, Ratnagiri",
+      "state": "Maharashtra",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Dental College, Jawaharlal Nehru Institute of Medical Sciences",
+      "state": "Manipur",
+      "ownership": "Govt.",
+      "bdsSeats": 50
+    },
+    {
+      "college": "Dental College, RIMS, Imphal",
+      "state": "Manipur",
+      "ownership": "Govt.",
+      "bdsSeats": 50
+    },
+    {
+      "college": "Hi-Tech Dental College & hospital, Bhubaneswar",
+      "state": "Odisha",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Institute of Dental Sciences, Bhubaneswar",
+      "state": "Odisha",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Kalinga Institute of Dental Sciences, Bhubaneswar",
+      "state": "Odisha",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "S.C.B. Dental College & Hospital, Cuttack",
+      "state": "Odisha",
+      "ownership": "Govt.",
+      "bdsSeats": 63
+    },
+    {
+      "college": "Indira Gandhi Institute of Dental Sciences, Pondicherry",
+      "state": "Puducherry",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Mahatma Gandhi Post Graduate Institute of Dental Sciences, Puducherry",
+      "state": "Puducherry",
+      "ownership": "Govt.",
+      "bdsSeats": 125
+    },
+    {
+      "college": "Mahe Institute of Dental Sciences & Hospital, Mahe",
+      "state": "Puducherry",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Sri Venkateshwaraa Dental College, Puducherry",
+      "state": "Puducherry",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Adesh Institute of Dental Sciences & Research, Bathinda",
+      "state": "Punjab",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Baba Jaswant Singh Dental College Hospital & Research Institute, Ludhiana",
+      "state": "Punjab",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Christian Dental College, Ludhiana",
+      "state": "Punjab",
+      "ownership": "Private",
+      "bdsSeats": 40
+    },
+    {
+      "college": "Dasmesh Institute of Research & Dental Sciences, Faridkot",
+      "state": "Punjab",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Desh Bhagat Dental College & Hospital, Mandi Gobindgarh",
+      "state": "Punjab",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Genesis Institute of Dental Sciences & Research, Ferozepur",
+      "state": "Punjab",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Gian Sagar Dental College & Hospital",
+      "state": "Punjab",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Govt. Dental College & Hospital, Patiala",
+      "state": "Punjab",
+      "ownership": "Govt.",
+      "bdsSeats": 50
+    },
+    {
+      "college": "Guru Nanak Dev Dental College & Research Institute, Sunam",
+      "state": "Punjab",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Luxmi Bai Institute of Dental Sciences & Hospital, Patiala",
+      "state": "Punjab",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "National Dental College & Hospital, Gulabgarh",
+      "state": "Punjab",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Pb. Govt. Dental College & Hospital, Amritsar",
+      "state": "Punjab",
+      "ownership": "Govt.",
+      "bdsSeats": 50
+    },
+    {
+      "college": "Rayat Bahra Dental College, Mohali",
+      "state": "Punjab",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "RIMT Dental College, Mandi Gobindgarh",
+      "state": "Punjab",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Shaheed Kartar Singh Sarabha Dental College & Hospital, Ludhiana",
+      "state": "Punjab",
+      "ownership": "Private",
+      "bdsSeats": 50
+    },
+    {
+      "college": "Sri Guru Ram Das Institute of Dental Sciences & Research, Amritsar",
+      "state": "Punjab",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Sukhmani Dental College & Hospital, Derabassi",
+      "state": "Punjab",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Darshan Dental College & Hospital, Udaipur",
+      "state": "Rajasthan",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Daswani Dental College & Research Centre, Kota",
+      "state": "Rajasthan",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Dr. S. S. Tantia Dental College Hospital and Research Centre",
+      "state": "Rajasthan",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Eklavya Dental College & Hospital, Kotputli",
+      "state": "Rajasthan",
+      "ownership": "Private",
+      "bdsSeats": 50
+    },
+    {
+      "college": "Geetanjali Dental & Research Institute, Udaipur",
+      "state": "Rajasthan",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Government Dental College, Jodhpur",
+      "state": "Rajasthan",
+      "ownership": "Govt.",
+      "bdsSeats": 50
+    },
+    {
+      "college": "Govt. Dental College & Hospital, Jaipur",
+      "state": "Rajasthan",
+      "ownership": "Govt.",
+      "bdsSeats": 50
+    },
+    {
+      "college": "Jaipur Dental College, Jaipur",
+      "state": "Rajasthan",
+      "ownership": "Private",
+      "bdsSeats": 89
+    },
+    {
+      "college": "Jodhpur Dental College General Hospital, Jodhpur",
+      "state": "Rajasthan",
+      "ownership": "Private",
+      "bdsSeats": 0
+    },
+    {
+      "college": "Maharaja Ganga Singh Dental College & Research Centre, Sri Ganganagar",
+      "state": "Rajasthan",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Mahatma Gandhi Dental College & Hospital, Sitapura, Jaipur",
+      "state": "Rajasthan",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "NIMS Dental College, Jaipur",
+      "state": "Rajasthan",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Pacific Dental College & Research Centre",
+      "state": "Rajasthan",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Pacific Dental College, udaipur",
+      "state": "Rajasthan",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "R.R. Dental College & Hospital, Udaipur",
+      "state": "Rajasthan",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Rajasthan Dental College & Hospital, Jaipur",
+      "state": "Rajasthan",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Surendera Dental College & Research Institute, Sri Ganganagar",
+      "state": "Rajasthan",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Vyas Dental College & Hospital, Jodhpur",
+      "state": "Rajasthan",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Adhiparasakthi Dental College & Hospital, Melmaruvathur",
+      "state": "Tamil Nadu",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Asan Memorial Dental College & Hospital, Kancheepuram",
+      "state": "Tamil Nadu",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Best Dental Science College, Madurai",
+      "state": "Tamil Nadu",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Chettinad Dental College & Research Institute, Kancheepuram",
+      "state": "Tamil Nadu",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "CSI College of Dental Sciences & Research, Madurai",
+      "state": "Tamil Nadu",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Dhanalakshmi Srinivasan Dental College",
+      "state": "Tamil Nadu",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Government Dental College, Pudukkottai",
+      "state": "Tamil Nadu",
+      "ownership": "Govt.",
+      "bdsSeats": 50
+    },
+    {
+      "college": "Govt. Dental College & Hospital, Cuddalore",
+      "state": "Tamil Nadu",
+      "ownership": "Govt.",
+      "bdsSeats": 113
+    },
+    {
+      "college": "JKK Natrajah Dental College & Hospital, Komarapalayam",
+      "state": "Tamil Nadu",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "K.S.R. Institute of Dental Science & Research, Tiruchengode",
+      "state": "Tamil Nadu",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Karpaga Vinayaga Institute of Dental Sciences, Kanchipuram",
+      "state": "Tamil Nadu",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Madha Dental College & Hospital, Kundrathur",
+      "state": "Tamil Nadu",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Meenakshi Ammal Dental College & Hospital, Chennai",
+      "state": "Tamil Nadu",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Nandha Dental College and Hospital",
+      "state": "Tamil Nadu",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Priyadarshini Dental College & Hospital, Pandur",
+      "state": "Tamil Nadu",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "R.V.S. Dental College & Hospital, Sulur",
+      "state": "Tamil Nadu",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Ragas Dental College & Hospital, Chennai",
+      "state": "Tamil Nadu",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Rajas Dental College & Hospital, Kavalkinaru Jn",
+      "state": "Tamil Nadu",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "S.R.M. Dental College, Ramapuram, Chennai",
+      "state": "Tamil Nadu",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Sathyabama University Dental College and Hospital, Chennai",
+      "state": "Tamil Nadu",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Saveetha Dental College & Hospital, Chennai",
+      "state": "Tamil Nadu",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Sree Balaji Dental College & Hospital, Narayanpuram",
+      "state": "Tamil Nadu",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Sree Mookambika Institute of Dental Sciences, Kulasekharam",
+      "state": "Tamil Nadu",
+      "ownership": "Private",
+      "bdsSeats": 50
+    },
+    {
+      "college": "Sri Ramachandra Dental College & Hospital, Porur",
+      "state": "Tamil Nadu",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Sri Ramakrishna Dental College & Hospital, Coimbatore",
+      "state": "Tamil Nadu",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Sri Venkateswara Dental College & Hospital, Kancheepuram",
+      "state": "Tamil Nadu",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "SRM Kattankulathur Dental College & Hospital, Kanchipuram",
+      "state": "Tamil Nadu",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Tagore Dental College & Hospital, Chennai",
+      "state": "Tamil Nadu",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Tamil Nadu Government Dental College & Hospital, Chennai",
+      "state": "Tamil Nadu",
+      "ownership": "Govt.",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Thai Moogambigai Dental College & Hospital, Chennai",
+      "state": "Tamil Nadu",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Vinayaka Mission’s Sankarachariyar Dental College, Salem",
+      "state": "Tamil Nadu",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Vivekanandha Dental College for Women, Elayampalayam",
+      "state": "Tamil Nadu",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Army College of Dental Sciences, Secunderabad",
+      "state": "Telangana",
+      "ownership": "Private",
+      "bdsSeats": 50
+    },
+    {
+      "college": "Government Dental College and Hospital, Hyderabad",
+      "state": "Telangana",
+      "ownership": "Govt.",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Kamineni Institute of Dental Sciences, Nalgonda",
+      "state": "Telangana",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Malla Reddy Dental College for Women, Hyderabad",
+      "state": "Telangana",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Malla Reddy Institute of Dental Sciences,Hyderabad",
+      "state": "Telangana",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Mamata Dental College, Khamam",
+      "state": "Telangana",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Mamata Institute of Dental Sciences",
+      "state": "Telangana",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Meghna Institute of Dental Sciences, Nizamabad",
+      "state": "Telangana",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "MNR DENTAL COLLEGE & HOSPITAL , MEDAK",
+      "state": "Telangana",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Panineeya Mahavidyalaya Institute of Dental Sciences & Research Centre, Hyderabad",
+      "state": "Telangana",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Sri Balaji Dental College, Hyderabad",
+      "state": "Telangana",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Sri Sai College of Dental Surgery, Vikarabad",
+      "state": "Telangana",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Sri Venkata Sai Institute of Dental Sciences, Hyderabad",
+      "state": "Telangana",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Tirumala Institute of Dental Sciences & Research Centre",
+      "state": "Telangana",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Agartala Government Dental College and IGM Hospital",
+      "state": "Tripura",
+      "ownership": "Govt.",
+      "bdsSeats": 63
+    },
+    {
+      "college": "Babu Banarasi Das College of Dental Sciences, Lucknow",
+      "state": "Uttar Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Career Institute of Dental Sciences & Hospital, Lucknow",
+      "state": "Uttar Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Chandra Dental College & Hospital, safedabad",
+      "state": "Uttar Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "D.J. College of Dental Sciences & Research, Modi Nagar",
+      "state": "Uttar Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Dental College Azamgarh",
+      "state": "Uttar Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Dr. Ziauddin Ahmad Dental College, Aligarh",
+      "state": "Uttar Pradesh",
+      "ownership": "Govt.",
+      "bdsSeats": 50
+    },
+    {
+      "college": "Faculty of Dental Sciences, Banaras Hindu University, Varanasi",
+      "state": "Uttar Pradesh",
+      "ownership": "Govt.",
+      "bdsSeats": 63
+    },
+    {
+      "college": "Faculty of Dental Sciences, Lucknow",
+      "state": "Uttar Pradesh",
+      "ownership": "Govt.",
+      "bdsSeats": 100
+    },
+    {
+      "college": "I.T.S. Centre for Dental Studies & Research, Ghaziabad",
+      "state": "Uttar Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "I.T.S. Dental College, Hospital & Research Centre, Gr. Noida",
+      "state": "Uttar Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Inderprastha Dental College & Hospital, Ghaziabad",
+      "state": "Uttar Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Institute of Dental Sciences, Bareilly",
+      "state": "Uttar Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Institute of Dental Studies & Technology, Modinagar",
+      "state": "Uttar Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "K.D. Dental College, Mathura",
+      "state": "Uttar Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Kalka Dental College & Hospital, Meerut",
+      "state": "Uttar Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Kothiwal Dental College & Research Centre, Moradabad",
+      "state": "Uttar Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Maharana Pratap Dental College & Hospital, Kanpur",
+      "state": "Uttar Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Purvanchal Institute of Dental Sciences, Gorakhpur",
+      "state": "Uttar Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Rama Dental College, Hospital & Research Centre, Kanpur",
+      "state": "Uttar Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Santosh Dental College & Hospital, Ghaziabad",
+      "state": "Uttar Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Saraswati Dental College, Lucknow",
+      "state": "Uttar Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Sardar Patel Post Graduate Institute of Dental & Medical Sciences, Lucknow",
+      "state": "Uttar Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "School of Dental Sciences, Greater Noida",
+      "state": "Uttar Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Shree Bankey Bihari Dental College & Research Centre, Masuri",
+      "state": "Uttar Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Subharati Dental College, Meerut",
+      "state": "Uttar Pradesh",
+      "ownership": "Private",
+      "bdsSeats": null
+    },
+    {
+      "college": "Teerthanker Mahaveer Dental College & Research Centre, Moradabad",
+      "state": "Uttar Pradesh",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "U.P. Rural Institute of Medical Sciences & Research, Saifai",
+      "state": "Uttar Pradesh",
+      "ownership": "Govt.",
+      "bdsSeats": null
+    },
+    {
+      "college": "Seema Dental College & Hospital, Rishikesh",
+      "state": "Uttarakhand",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Uttaranchal Dental College & Medical Research Institute, Dehradun",
+      "state": "Uttarakhand",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Burdwan Dental College, Rajbati",
+      "state": "West Bengal",
+      "ownership": "Govt.",
+      "bdsSeats": 125
+    },
+    {
+      "college": "Dr. R. Ahmed Dental College & Hospital, Calcutta",
+      "state": "West Bengal",
+      "ownership": "Govt.",
+      "bdsSeats": 125
+    },
+    {
+      "college": "Gurunanak Institute of Dental Science & Research, Kolkatta",
+      "state": "West Bengal",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Haldia Institute of Dental Sciences and Research, Banbishnupur",
+      "state": "West Bengal",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Kusum Devi Sunderlal Dugar Jain Dental College & Hospital, Kolkata",
+      "state": "West Bengal",
+      "ownership": "Private",
+      "bdsSeats": 100
+    },
+    {
+      "college": "Sanaka Institute of Dental Sciences, Durgapur",
+      "state": "West Bengal",
+      "ownership": "",
+      "bdsSeats": 100
+    },
+    {
+      "college": "The North Bengal Dental College, Sushratangar",
+      "state": "West Bengal",
+      "ownership": "Govt.",
+      "bdsSeats": 63
+    }
+  ]
+}
